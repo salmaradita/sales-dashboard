@@ -1,0 +1,22 @@
+# Data asli — JANGAN pernah commit ke GitHub
+*.parquet
+!demo_data/sales_demo.parquet
+
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Output files
+pivot_output.xlsx
+*.xlsx
+!demo_output/*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
